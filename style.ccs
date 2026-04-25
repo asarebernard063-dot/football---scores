@@ -8,7 +8,13 @@ body {
 
 h1 {
     color: #00ffcc;
-    padding: 20px;
+    padding: 20px;.header {
+    background: #00ffcc;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
 }
 
 .match {
@@ -18,7 +24,13 @@ h1 {
     border-radius: 12px;
     width: 80%;
     max-width: 400px;
-    box-shadow: 0px 0px 10px rgba(0,255,204,0.2);
+    box-shadow: 0px 0px 10px rgba(0,255,204,0.2);.match {
+    transition: 0.3s;
+}
+
+.match:hover {
+    transform: scale(1.03);
+}
 }
 
 .teams {
