@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    background: #0b0f1a;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: #00ffcc;
+}
+
+.match {
+    background: #1a1f2e;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.score {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.time {
+    color: #00ffcc;
+}
